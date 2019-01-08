@@ -36,7 +36,7 @@ public class MovieV1 {
     }
 
     public void set_priceCode(int arg) {
-        //个人认为加一个工厂模式是最好的
+        //个人认为加一个工厂模式是最好的，如果以后再加新电影类型怎么办?需要增加一个case，需要修改这种硬编码
         switch (arg) {
             case REGULAR:
                 _price = new RegularPrice();
