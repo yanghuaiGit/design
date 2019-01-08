@@ -1,7 +1,9 @@
 package com.yh.design.designInexample.Framework.FirstExample;
 
 
-
+/**
+ * 租赁
+ */
 public class Rental {
     private Movie _movie;
     private int _daysRented;
